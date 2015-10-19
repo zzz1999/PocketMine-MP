@@ -90,6 +90,24 @@ class Enchantment{
 		self::$enchantments[self::TYPE_ARMOR_PROTECTION] = new Enchantment(self::TYPE_ARMOR_PROTECTION, "%enchantment.protect.all", self::RARITY_COMMON, self::ACTIVATION_EQUIP, self::SLOT_ARMOR);
 		self::$enchantments[self::TYPE_ARMOR_FIRE_PROTECTION] = new Enchantment(self::TYPE_ARMOR_FIRE_PROTECTION, "%enchantment.protect.fire", self::RARITY_UNCOMMON, self::ACTIVATION_EQUIP, self::SLOT_ARMOR);
 		self::$enchantments[self::TYPE_ARMOR_FALL_PROTECTION] = new Enchantment(self::TYPE_ARMOR_FALL_PROTECTION, "%enchantment.protect.fall", self::RARITY_UNCOMMON, self::ACTIVATION_EQUIP, self::SLOT_FEET);
+		self::$enchantments[self::TYPE_ARMOR_EXPLOSION_PROTECTION] = new Enchantment(self::TYPE_ARMOR_EXPLOSION_PROTECTION, "%enchantment.protect.explosion", self::RARITY_RARE, self::ACTIVATION_EQUIP, self::SLOT_ARMOR);
+		self::$enchantments[self::TYPE_ARMOR_PROJECTILE_PROTECTION] = new Enchantment(self::TYPE_ARMOR_PROJECTILE_PROTECTION, "%enchantment.protect.projectile", self::RARITY_UNCOMMON, self::ACTIVATION_EQUIP, self::SLOT_ARMOR);
+		self::$enchantments[self::TYPE_ARMOR_THORNS] = new Enchantment(self::TYPE_ARMOR_THORNS, "%enchantment.thorns", self::RARITY_RARE, self::ACTIVATION_EQUIP, self::SLOT_TORSO);
+		self::$enchantments[self::TYPE_WATER_BREATHING] = new Enchantment(self::TYPE_WATER_BREATHING, "%enchantment.breathing",self::RARITY_RARE, self::ACTIVATION_EQUIP, self::SLOT_HEAD);
+		self::$enchantments[self::TYPE_WATER_SPEED] = new Enchantment(self::TYPE_WATER_SPEED, "%enchantment.speed",self::RARITY_RARE, self::ACTIVATION_EQUIP, self::SLOT_FEET);
+		self::$enchantments[self::TYPE_WATER_AFFINITY] = new Enchantment(self::TYPE_WATER_AFFINITY, "%enchantment.affinity",self::RARITY_RARE, self::ACTIVATION_EQUIP, self::SLOT_HEAD);
+		self::$enchantments[self::TYPE_WEAPON_SHARPNESS] = new Enchantment(self::TYPE_WEAPON_SHARPNESS, "%enchantment.sharpness",self::RARITY_COMMON, self::ACTIVATION_HELD, self::SLOT_SWORD);
+		self::$enchantments[self::TYPE_WEAPON_SMITE] = new Enchantment(self::TYPE_WEAPON_SMITE, "%enchantment.smite",self::RARITY_UNCOMMON,self::ACTIVATION_HELD, self::SLOT_SWORD);
+		self::$enchantments[self::TYPE_WEAPON_ARTHROPODS] = new Enchantment(self::TYPE_WEAPON_ARTHROPODS, "%enchantment.arthropods",self::RARITY_UNCOMMON,self::ACTIVATION_HELD,self::SLOT_SWORD);
+		self::$enchantments[self::TYPE_WEAPON_KNOCKBACK] = new Enchantment(self::TYPE_WEAPON_KNOCKBACK, "%enchantment.knockback.sword",self::RARITY_UNCOMMON,self::ACTIVATION_HELD,self::SLOT_SWORD);
+		self::$enchantments[self::TYPE_WEAPON_FIRE_ASPECT] = new Enchantment(self::TYPE_WEAPON_FIRE_ASPECT, "%enchantment.aspect.fire",self::RARITY_RARE,self::ACTIVATION_HELD,self::SLOT_SWORD);
+		self::$enchantments[self::TYPE_WEAPON_LOOTING] = new Enchantment(self::TYPE_WEAPON_LOOTING, "%enchantment.looting",self::RARITY_RARE,self::ACTIVATION_HELD,self::SLOT_SWORD);
+		self::$enchantments[self::TYPE_MINING_EFFICIENCY] = new Enchantment(self::TYPE_MINING_EFFICIENCY, "%enchantment.efficiency",self::RARITY_COMMON,self::ACTIVATION_HELD,self::SLOT_TOOL);
+		self::$enchantments[self::TYPE_MINING_SILK_TOUCH] = new Enchantment(self::TYPE_MINING_SILK_TOUCH, "%enchantment.touch.silk",self::RARITY_MYTHIC,self::ACTIVATION_HELD,self::SLOT_TOOL);
+		self::$enchantments[self::TYPE_MINING_DURABILITY] = new Enchantment(self::TYPE_MINING_DURABILITY, "%enchantment.durability",self::RARITY_UNCOMMON,self::ACTIVATION_SELF,self::SLOT_ALL);
+		self::$enchantments[self::TYPE_MINING_FORTUNE] = new Enchantment(self::TYPE_MINING_FORTUNE, "%enchantment.fortune",self::RARITY_RARE,self::ACTIVATION_HELD,self::SLOT_TOOL);
+		self::$enchantments[self::TYPE_BOW_POWER] = new Enchantment(self::TYPE_BOW_POWER, "%enchantment.power",self::RARITY_COMMON,self::ACTIVATION_HELD,self::SLOT_BOW);
+		self::$enchantments[self::TYPE_BOW_KNOCKBACK] = new Enchantment(self::TYPE_BOW_KNOCKBACK, "%enchantment.knockback.bow",self::RARITY_RARE,self::ACTIVATION_HELD,self::SLOT_BOW);
 	}
 
 	/**
